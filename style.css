@@ -223,6 +223,29 @@ gap: 2rem;
         -o-border-radius: 1rem;
 }
 
+.icons{
+    /* border: 2px solid; */
+    height: 2rem;
+    margin-top: 1rem;
+    display: flex;
+    gap: 1rem;
+    
+}
+.icons img{
+    width: 2rem;
+    margin-top: 0rem;
+    transition: all .1 s;
+    -webkit-transition: all .1 s;
+    -moz-transition: all .1 s;
+    -ms-transition: all .1 s;
+    -o-transition: all .1 s;
+}
+.icons :hover img{
+    width: 2.1rem;
+}
+
+
+
 
 
 
