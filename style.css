@@ -46,11 +46,14 @@ html {
 
 .nav-bar{
     border: 2px solid;
-position: sticky;
-top: 0;
+    background-color: rgba(0, 0, 0, 0.136);
+     width: 100vw;
+position: fixed;
+top: 0rem;
 z-index: 999;
  display: flex;
  justify-content: space-between;
+ height: 5rem;
 }
 #navbar{
     /* border: 2px solid; */
@@ -59,13 +62,14 @@ z-index: 999;
     align-items: center;
     gap: 2rem;
     list-style: none;
-    height: 8rem;
+    /* height: rem; */
     /* background-color: rgb(95, 94, 96); */
     
 
 }
 #navbar li{
-    margin-right:5rem ;
+    /* border: 2px solid; */
+    margin-right:5rem;
 }
 
 #navbar a{
@@ -82,10 +86,15 @@ z-index: 999;
 }
 
 .logo img{
-    height: 9rem;
+    /*border: 2px solid;
+    */height: 4rem;
     padding-left: 2rem;
-    /* border: 2px solid; */
-
+    margin-top: .4rem;
+    border-radius: 1rem 2rem 1rem 2rem;
+    -webkit-border-radius: 1rem 2rem 1rem 2rem;
+    -moz-border-radius: 1rem 2rem 1rem 2rem;
+    -ms-border-radius: 1rem 2rem 1rem 2rem;
+    -o-border-radius: 1rem 2rem 1rem 2rem;
 }
 #navbar :hover a{
     color: rgb(205, 203, 197);
@@ -96,7 +105,8 @@ z-index: 999;
 
 #section1{
     /* border: 2px solid; */
-    margin-top: 1.3rem;
+    /* margin-top: 1.3rem; */
+    margin-top: 10rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -154,7 +164,7 @@ z-index: 999;
 
 /*todo          section 2 */
 #section2{
-border: 2px solid;
+/* border: 2px solid; */
  margin-top: 3rem;
 display: flex;
 justify-content: center;
@@ -221,7 +231,7 @@ gap: 2rem;
 
 
 .section2div2{
-    border: 2px solid;
+    /* border: 2px solid; */
     width: 35rem;
     border: 2px solid rgba(0, 0, 0, 0.167);
     border-radius: 1rem;
@@ -237,7 +247,6 @@ gap: 2rem;
     
 }
 .section2div2 p{
-    /* text-align: center; */
     height: 40rem;
     width: 32rem;
     margin-top: 3rem;
@@ -280,9 +289,9 @@ gap: 2rem;
     
 }
 .icons img{
-    width: 2rem;
-    margin-top: 0rem;
-    transition: all .1 s;
+     width: 2rem;
+     margin-top: 0rem;
+     transition: all .1 s;
     -webkit-transition: all .1 s;
     -moz-transition: all .1 s;
     -ms-transition: all .1 s;
@@ -295,15 +304,21 @@ gap: 2rem;
 .section2div2-ul{
     /* border: 2px solid; */
     display: flex;
-    gap: 4rem;
-       color: rgba(0, 0, 0, 0.677);
-       line-height: 3.5rem;
-      margin-top: -18rem;
-      /* padding-left: 1rem; */
+    gap: 3rem;
+    color: rgba(0, 0, 0, 0.677);
+    line-height: 3.3rem;
+    margin-top: -18rem;
       
 }
 .section2div2-ul li{
+    /* border: 2px solid; */
+    display: flex;
     list-style: none;
+}
+
+.section2div2-ul ul img{
+    /* border: 2px solid; */
+    width: 1.3rem;
 }
 
 
