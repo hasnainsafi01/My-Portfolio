@@ -46,7 +46,7 @@ html {
 
 .nav-bar{
     border: 2px solid;
-    background-color: rgba(0, 0, 0, 0.136);
+    background-color: rgb(102, 102, 102);
      width: 100vw;
 position: fixed;
 top: 0rem;
@@ -75,7 +75,7 @@ z-index: 999;
 #navbar a{
     text-decoration: none;
     text-align: center;
-    color: rgb(67, 62, 62);
+    color: rgb(255, 255, 255);
     font-size: 1.2rem;
     text-transform: capitalize;
     transition: all .3s;
@@ -97,7 +97,7 @@ z-index: 999;
     -o-border-radius: 1rem 2rem 1rem 2rem;
 }
 #navbar :hover a{
-    color: rgb(205, 203, 197);
+    color: rgb(144, 143, 139);
     text-decoration: underline;
 }
 
@@ -320,20 +320,62 @@ gap: 2rem;
     /* border: 2px solid; */
     width: 1.3rem;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*todo          section 2 */
+
+/*todo            section2   resume   */
+#resume{
+    /* border: 2px solid; */
+    margin-top: 5rem;
+        background-color: rgba(0, 0, 0, 0.058);
+
+}
+#resume h1{
+text-align: center;
+text-transform: uppercase;
+/* margin-top: 1rem; */
+padding: 4rem;
+/* border: 2px solid; */
+justify-content: center;
+color: rgba(0, 0, 0, 0.566);
+}
+.my-resume{
+    /* border: 2px solid; */
+    display: flex;
+    justify-content: space-around;
+    text-transform: capitalize;
+}
+.my-resume div div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30rem;
+    height: 10rem;
+    margin-top: 1rem;
+    border: 2px solid rgba(0, 0, 0, 0.071);
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+}
+.my-resume div h4{
+    /* border: 2px solid; */
+    padding-left: .4rem;
+    display:flex ;
+    width: 24rem;
+    font-size: 1.5rem;
+    color: rgba(0, 0, 0, 0.704);
+    line-height: 3rem;
+   
+}
+
+.my-resume div p{
+    /* border: 2px solid; */
+    color: rgba(0, 0, 0, 0.451);
+    padding-left: .4rem;
+}
+
+
 
 
 
