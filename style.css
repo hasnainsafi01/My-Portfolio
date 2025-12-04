@@ -60,7 +60,6 @@ z-index: 999;
    display: flex;
     justify-content: right;
     align-items: center;
-    gap: 2rem;
     list-style: none;
     /* height: rem; */
     /* background-color: rgb(95, 94, 96); */
@@ -69,7 +68,7 @@ z-index: 999;
 }
 #navbar li{
     /* border: 2px solid; */
-    margin-right:5rem;
+    margin-right:2.8rem;
 }
 
 #navbar a{
