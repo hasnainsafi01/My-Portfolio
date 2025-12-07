@@ -413,7 +413,7 @@ color: rgba(0, 0, 0, 0.566);
     display: flex;
     font-size: 2.5rem;
     color: rgba(37, 14, 14, 0.538);
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family:  sans-serif;
 }
 
 #projects div p{
@@ -423,6 +423,17 @@ color: rgba(0, 0, 0, 0.566);
     color: rgba(0, 0, 0, 0.586);
 }
 
+#projects div button{
+    border:none;
+    border: 2px solid;
+    width: 6rem;
+    height: 2rem;
+    border-radius:.6rem;
+    -webkit-border-radius:.6rem;
+    -moz-border-radius:.6rem;
+    -ms-border-radius:.6rem;
+    -o-border-radius:.6rem;
+}
 
 
 
