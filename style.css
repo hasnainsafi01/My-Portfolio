@@ -8,38 +8,6 @@
 
 }
 
-/* todo      loader */
-/* Circle Loader */
-/* Loader Circle */
-.loader {
-  width: 40px;
-  height: 40px;
-  border: 4px solid #ccc;
-  border-top: 4px solid blue;
-  border-radius: 50%;
-  animation: spin 1s linear infinite;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-@keyframes spin {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
-}
-
-/* Offline Message */
-.offline {
-  text-align: center;
-  margin-top: 100px;
-  color: red;
-  font-size: 20px;
-}
-
-
-/* todo      loader */
-
 html {
     scroll-behavior: smooth;
 }
@@ -455,6 +423,67 @@ color: rgba(0, 0, 0, 0.566);
     text-transform: capitalize;
 }
 
+
+/* todo    contact */
+
+#contact{
+    border:  2px solid;
+   
+}
+#contact h1,p {
+    text-align: center;
+}
+
+.my-contact{
+    border: 2px solid;
+    display: flex;
+    gap: 2rem;
+    /* justify-content: center; */
+}
+
+.my-contact-div1{
+    border: 2px solid;
+    height: 29rem;
+    width: 22rem;
+    padding: 1rem;
+    margin-left: 3rem;
+    display: flex;
+    flex-direction: column;
+    
+}
+.my-contact-div1 h4{
+    margin-top: 4rem;
+    text-transform: capitalize;
+    font-weight: 550;
+    font-family:'Times New Roman', Times, serif;
+}
+.my-contact-div1 p{
+      color: rgb(109, 108, 108);
+      font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      text-align: left;
+      
+}
+
+.my-contact-div2{
+    border: 2px solid;
+  
+   
+}
+.my-contact-div2 p{
+    text-align: left;
+    display: inline-block;
+    line-break: strict;
+}
+.my-contact-div2 input{
+    display: block;
+    border: 2px solid;
+    display: inline-block;
+    outline: none;
+
+}
+
+
+/* todo    contact */
 
 
 
