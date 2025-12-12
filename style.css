@@ -338,6 +338,7 @@ color: rgba(0, 0, 0, 0.566);
 
 .my-resume div p{
     /* border: 2px solid; */
+    text-align: left;
     color: rgba(0, 0, 0, 0.451);
     padding-left: .4rem;
 }
