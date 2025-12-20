@@ -578,6 +578,20 @@ color: rgba(0, 0, 0, 0.566);
     width: 100%;
 } 
 
+
+.my-contact-div2-btn{
+    /* border: 2px solid; */
+    border: none;
+    text-transform: capitalize;
+    width: 5rem;
+    height:2rem;
+    background-color: rgba(96, 155, 96, 0.466);
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+}
   /* todo    contact 2 */
   
 
