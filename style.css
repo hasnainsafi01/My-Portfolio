@@ -672,6 +672,10 @@ body {
   }
   .my-resume div div {
     width: 90%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
   }
 
   /* Projects Section Adjustments */
@@ -711,7 +715,7 @@ body {
 
   /* --- Contact Section Media Queries --- */
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 650px) {
     /* Main container ko column mein kar diya taaki dono dabbe upar niche ho jayein */
     .my-contact {
       flex-direction: column;
@@ -737,7 +741,8 @@ body {
     }
     .icons {
   /* border: 2px solid; */
-  height: 1rem;
+
+  width: 13rem;
   margin-top: 1rem;
   display: flex;
   gap: 1rem;
