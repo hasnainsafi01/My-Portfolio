@@ -12,3 +12,18 @@ form.addEventListener("submit", function (e) {
   subject.value = "";
   massage.value = "";
 });
+
+
+//hambergur is start here 
+function toggleMenu() {
+    const navbar = document.getElementById("navbar");
+    const hamburger = document.querySelector(".hamburger");
+
+    navbar.classList.toggle("active");
+
+    if (navbar.classList.contains("active")) {
+        hamburger.innerHTML = "✖";
+    } else {
+        hamburger.innerHTML = "☰";
+    }
+}

@@ -53,18 +53,71 @@ body {
   -ms-transition: all 0.3s;
   -o-transition: all 0.3s;
 }
+/* todo   from here the hambargure i start */
 
+/* @media (max-width: 768px) {
+
+    .nav-bar {
+        position: relative;
+    }
+
+    #navbar {
+        position: absolute;
+        top: 70px;
+        right: -100%;
+        width: 100%;
+        height: 35vh;
+        background: #111; 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+        transition: 0.4s ease-in-out;
+    }
+
+    #navbar.active {
+        right: 0;
+    }
+
+    #navbar li {
+        list-style: none;
+    }
+
+    #navbar li a {
+        text-decoration: none;
+        color: white;
+        font-size: 22px;
+        font-weight: 500;
+        padding: 10px 20px;
+        border-radius: 8px;
+        transition: 0.3s ease;
+    }
+
+    #navbar li a:hover {
+        background: #00adb5;
+        color: #111;
+    }
+
+    .hamburger {
+        display: block;
+        font-size: 28px;
+        cursor: pointer;
+        z-index: 1000;
+    }
+} */
+
+/* todo   from here the hambargure i start */
 .logo img {
   /*border: 2px solid;
-    */
-  height: 3rem;
-  padding-left: 2rem;
+  */height: 3rem;
+  margin-left: 1rem;
   margin-top: 0.4rem;
-  border-radius: 1rem 2rem 1rem 2rem;
-  -webkit-border-radius: 1rem 2rem 1rem 2rem;
-  -moz-border-radius: 1rem 2rem 1rem 2rem;
-  -ms-border-radius: 1rem 2rem 1rem 2rem;
-  -o-border-radius: 1rem 2rem 1rem 2rem;
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
 }
 #navbar :hover a {
   color: rgb(144, 143, 139);
@@ -288,7 +341,7 @@ body {
   /* border: 2px solid; */
   margin-top: 5rem;
   background-color: rgba(0, 0, 0, 0.089);
-  height: 45rem;
+  height: 50rem;
 }
 #resume h1 {
   /* border: 2px solid; */
@@ -301,8 +354,10 @@ body {
 .my-resume {
   /* border: 2px solid; */
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  gap: 1rem;
   text-transform: capitalize;
+ height: 71rem;
 }
 .my-resume div div {
   display: flex;
@@ -341,20 +396,23 @@ body {
 
 #projects {
   border: 2px solid;
-  justify-content: center;
-  text-align: center;
   gap: 2rem;
-  margin-top: 3rem;
+  margin-top: 1rem;
+  /* height: 50rem; */
 }
 #projects h1 {
   color: rgba(0, 0, 0, 0.451);
   text-transform: uppercase;
   padding: 4rem;
+  margin-top: 9rem;
+   border: 2px solid;
+   text-align: center;
 }
 .myprojects {
   /* border: 2px solid; */
   display: flex;
   flex-wrap: wrap;
+  /* width: 30rem; */
   justify-content: center;
   margin-top: 1rem;
   gap: 1rem;
@@ -377,7 +435,7 @@ body {
 }
 
 .myprojects div h2 {
-  border: 2px solid;
+  /* border: 2px solid; */
   text-transform: capitalize;
   display: flex;
   font-size: 2rem;
@@ -396,19 +454,19 @@ body {
 }
 
 .myprojects div p {
-  border: 2px solid;
+  /* border: 2px solid; */
   text-align: center;
   margin: 1rem;
   font-size: 1rem;
    width: 15rem;
-   text-align: left;
+   text-align: center;
   color: rgb(255, 253, 253);
 }
 
 .myprojects div button {
   border: none;
   /* border: 2px solid; */
-  background-color: rgba(0, 0, 255, 0.2);
+  background-color: rgba(0, 0, 255, 0.568);
   width: 6rem;
   height: 2rem;
   border-radius: 0.6rem;
@@ -419,19 +477,47 @@ body {
 }
 .myprojects div button a {
   text-decoration: none;
-  color: rgb(109, 108, 108);
+  color: rgb(202, 195, 195);
   font-size: 0.9rem;
   text-transform: capitalize;
 }
 
 /* todo project imgs */
 .project4{
-  background-image: url(./imgs/reg-form.jpeg);
+  background-image: url();
   background-repeat: no-repeat;
   background-size: cover;
 
 }
 
+#project1{
+  border: 2px solid;
+  background-image: url(./imgs/image.png);
+  background-repeat: no-repeat;
+  background-size:cover;
+  width: 38rem;
+}
+#project2{
+  border: 2px solid;
+  background-image: url(./imgs/image2.png);
+  background-repeat: no-repeat;
+  background-size:cover;
+  width: 38rem;
+}
+#project3{
+  border: 2px solid;
+  background-image: url(./imgs/image3.png);
+  background-repeat: no-repeat;
+  background-size:cover;
+  width: 38rem;
+}
+#project4{
+  border: 2px solid;
+  background-image: url(./imgs/image4.png);
+  background-repeat: no-repeat;
+  background-size:cover;
+  width: 38rem;
+}
 
 
 
@@ -510,7 +596,7 @@ body {
 }
 
   */
-
+  
 /* todo    contact */
 
 /* todo    contact 2 */
