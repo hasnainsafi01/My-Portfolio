@@ -55,59 +55,49 @@ body {
 }
 /* todo   from here the hambargure i start */
 
-/* @media (max-width: 768px) {
+/* Desktop par hamburger ko chhupayein */
+.hamburger {
+    display: none;
+    font-size: 2rem;
+    color: rgb(212, 212, 212);
+    cursor: pointer;
+    line-height: 4rem;
+    margin-right: 1.5rem; 
+}
 
-    .nav-bar {
-        position: relative;
+/* Mobile Screens (768px se kam) */
+@media screen and (max-width: 768px) {
+    .hamburger {
+        display: block; /* Hamburger dikhayen */
     }
 
     #navbar {
-        position: absolute;
-        top: 70px;
-        right: -100%;
-        width: 100%;
-        height: 35vh;
-        background: #111; 
-        display: flex;
+        display: none; /* Shuru mein menu hide rakhein */
         flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        gap: 30px;
-        transition: 0.4s ease-in-out;
+        position: absolute;
+        top: 4rem;
+        height: 17rem;
+        left: 0;
+        width: 100%;
+        background-color: rgba(102, 102, 102, 0.87);
+        text-align: center;
+        padding: 1rem 0;
+        z-index: 1000;
+        color: #000000;
     }
 
+    /* Jab JavaScript 'active' class lagaye, toh menu dikhayi dega */
     #navbar.active {
-        right: 0;
+        display: flex !important;
     }
 
     #navbar li {
-        list-style: none;
+        margin: 1rem 0;
     }
-
-    #navbar li a {
-        text-decoration: none;
-        color: white;
-        font-size: 22px;
-        font-weight: 500;
-        padding: 10px 20px;
-        border-radius: 8px;
-        transition: 0.3s ease;
-    }
-
-    #navbar li a:hover {
-        background: #00adb5;
-        color: #111;
-    }
-
-    .hamburger {
-        display: block;
-        font-size: 28px;
-        cursor: pointer;
-        z-index: 1000;
-    }
-} */
+}
 
 /* todo   from here the hambargure i start */
+
 .logo img {
   /*border: 2px solid;
   */height: 3rem;

@@ -14,16 +14,19 @@ form.addEventListener("submit", function (e) {
 });
 
 
-//hambergur is start here 
+// 1. Hamburger button click karne par menu kholne ya band karne ke liye
 function toggleMenu() {
-    const navbar = document.getElementById("navbar");
-    const hamburger = document.querySelector(".hamburger");
-
-    navbar.classList.toggle("active");
-
-    if (navbar.classList.contains("active")) {
-        hamburger.innerHTML = "✖";
-    } else {
-        hamburger.innerHTML = "☰";
-    }
+    const nav = document.getElementById('navbar');
+    nav.classList.toggle('active');
 }
+
+// 2. Menu ke links par click hote hi menu ko auto-close karne ke liye
+document.querySelectorAll('#navbar li a').forEach(link => {
+    link.addEventListener('click', () => {
+        const nav = document.getElementById('navbar');
+        // 'active' class ko remove kar deta hai taake menu chhup jaye
+        nav.classList.remove('active');
+        
+    });
+
+});
