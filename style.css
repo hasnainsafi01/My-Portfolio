@@ -46,6 +46,49 @@ body {
     transform: rotate(360deg);
   }
 }
+/* todo humberger */
+@media screen and (max-width: 768px) {
+  #navbar {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 4rem;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    
+    /* Blur aur Background styling */
+    background: rgba(255, 255, 255, 0.1); /* Bohat halka background */
+    backdrop-filter: blur(15px);         /* Yeh portfolio ko blur karega */
+    -webkit-backdrop-filter: blur(15px); /* Safari support */
+    
+    /* Smoothness ke liye */
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-10px);
+    transition: all 0.4s ease;
+    z-index: 1000;
+  }
+
+  #navbar.active {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+  }
+
+  /* Links ki styling */
+  #navbar li {
+    margin: 20px 0;
+  }
+
+  #navbar a {
+    color: #333; 
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-decoration: none;
+  }
+}
+/* todo humberger */
 
 /* Navbar */
 .nav-bar {

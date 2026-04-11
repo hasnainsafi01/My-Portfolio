@@ -36,3 +36,33 @@ if (contactForm) {
         }, 1000);
     });
 }
+function toggleMenu() {
+    const navbar = document.getElementById('navbar');
+    const hamburger = document.querySelector('.hamburger');
+    
+    navbar.classList.toggle('active');
+    
+    // Icon change (Optional: ☰ se ✕ banana)
+    if (navbar.classList.contains('active')) {
+        hamburger.innerHTML = '✕';
+        document.body.style.overflow = 'hidden'; // Jab menu khula ho to scroll band
+    } else {
+        hamburger.innerHTML = '☰';
+        document.body.style.overflow = 'auto';   // Menu band hone par scroll on
+    }
+}
+
+// Sabhi links ko select karein (Home, About, Contact etc)
+const navLinks = document.querySelectorAll('#navbar li a');
+
+navLinks.forEach(link => {
+    link.addEventListener('click', () => {
+        const navbar = document.getElementById('navbar');
+        const hamburger = document.querySelector('.hamburger');
+        
+        // Kisi bhi link par click hote hi menu band kar do
+        navbar.classList.remove('active');
+        hamburger.innerHTML = '☰';
+        document.body.style.overflow = 'auto'; // Scroll wapas on karein
+    });
+});
